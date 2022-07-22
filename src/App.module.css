@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  padding: 0 20px;
+  display: flex;
+  justify-items: space-between;
+  align-items: flex-start;
+  gap: 0 20px;
+}
+
+.selected {
+  background-color: grey;
+}
